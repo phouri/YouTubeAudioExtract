@@ -1,0 +1,17 @@
+{
+  "name": "youtube-extract",
+  "version": "0.1.0",
+  "author": "Pini Houri <pinhasph@gmail.com>",
+  "main": "src/main.js",
+  "dependencies": {
+    "fluent-ffmpeg": "^2.0.0-rc3",
+    "minimist": "^1.1.0",
+    "sanitize-filename": "^1.1.1",
+    "ytdl-core": "^0.2.4"
+  },
+  "scripts": {
+    "start": "node src/main.js"
+  },
+  "private": true,
+  "analyze": true
+}
